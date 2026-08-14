@@ -20,8 +20,6 @@ header {
     height: 100%;
     color: white;
     background-color: #88d9f6;
-    padding: 15px;
-    margin-bottom: 30px;
 }
 
 header > section.container-flex {
@@ -37,6 +35,7 @@ header > section.container-flex > img {
     width: 100%;
     max-width: 400px;
     max-height: 400px;
+    margin-bottom: 20px;
 }
 
 header > section.container-flex > section > h1 {
@@ -49,6 +48,8 @@ header > section.container-flex > section > h3 {
 
 header > section.container-flex > section > p {
     max-width: 500px;
+    margin-bottom: 20px;
+    padding: 15px;
 }
 
 main {
