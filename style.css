@@ -35,7 +35,7 @@ header > section.container-flex {
 header > section.container-flex > img {
     height: 100%;
     width: 100%;
-    max-width: 500px;
+    max-width: 420px;
     max-height: 500px;
 }
 
@@ -85,8 +85,8 @@ main > section.infos > ul {
 }
 
 main > section.infos > ul > li {
-    font-size: 15px;
-    max-width: 450px;
+    font-size: 17px;
+    max-width: 420px;
 }
 
 main > section.infos > h1 {
