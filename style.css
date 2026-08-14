@@ -9,6 +9,7 @@ span.escrito {
 }
 
 body {
+    overflow-x: hidden;
     background-color: #f9fcff;
     color: #ffffff;
     color: #1f1f1f;
@@ -28,7 +29,6 @@ header > section.container-flex {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
 }
 
