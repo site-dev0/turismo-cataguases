@@ -86,8 +86,8 @@ main > section.infos > ul {
 }
 
 main > section.infos > ul > li {
-    font-size: 17px;
-    max-width: 380px;
+    font-size: 16px;
+    max-width: 360px;
 }
 
 main > section.infos > h1 {
