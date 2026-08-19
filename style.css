@@ -21,6 +21,12 @@ i:hover {
     transition: 0.5s;
 }
 
+span.topicos {
+    color: #003cff;
+    text-decoration: underline;
+    font-size: larger;
+}
+
 body {
     background-color: #f9fcff;
     color: #ffffff;
@@ -99,6 +105,7 @@ section.infos > img {
 
 main > section.infos > p {
     max-width: 1000px;
+    margin-bottom: 70px;
 }
 
 main > section.infos > ul {
@@ -110,8 +117,29 @@ main > section.infos > ul {
 }
 
 main > section.infos > ul > li {
-    font-size: 16px;
-    max-width: 360px;
+    text-justify: inter-word;
+    font-size: 15px;
+    max-width: 320px;
+}
+
+main > section.infos > h4 {
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+main > section.infos > h4 > a {
+    background-color: #3766ff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 11px;
+    color: white;
+}
+
+main > section.infos > h4 > a:hover {
+    transition: .5s;
+    background-color: #0099ff;
 }
 
 main > section.infos > h1 {
