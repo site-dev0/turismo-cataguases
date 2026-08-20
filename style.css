@@ -52,6 +52,16 @@ header > nav > p {
     margin-bottom: 10px;
 }
 
+header > nav > p > a {
+    text-decoration: none;
+    color: #393939;
+}
+
+header > nav > p > a:hover {
+    text-decoration: underline;
+    color: #6b6b6b;
+}
+
 header > section.container-flex {
     margin-top: 20px;
     display: flex;
@@ -105,7 +115,8 @@ section.infos > img {
 
 main > section.infos > p {
     max-width: 1000px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 main > section.infos > ul {
@@ -117,19 +128,30 @@ main > section.infos > ul {
 }
 
 main > section.infos > ul > li {
-    text-justify: inter-word;
-    font-size: 15px;
-    max-width: 320px;
+    max-width: 300px;
+    width: 100%;
+}
+
+main > section.infos > ul > li > p {
+    width: 100%;
+    max-width: 300px;
 }
 
 main > section.infos > h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main > section.infos > p {
+    margin: auto;
     text-align: center;
     height: 20px;
     width: 100%;
     overflow: hidden;
 }
 
-main > section.infos > h4 > a {
+main > section.infos > p > a {
     background-color: #3766ff;
     padding: 10px;
     text-decoration: none;
@@ -137,7 +159,7 @@ main > section.infos > h4 > a {
     color: white;
 }
 
-main > section.infos > h4 > a:hover {
+main > section.infos > p > a:hover {
     transition: .5s;
     background-color: #0099ff;
 }
