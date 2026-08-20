@@ -145,9 +145,8 @@ main > section.infos > h4 {
 main > section.infos > p {
     margin: auto;
     text-align: center;
-    height: 20px;
-    width: 100%;
     overflow: hidden;
+    padding-top: 10px;
 }
 
 main > section.infos > p > a {
