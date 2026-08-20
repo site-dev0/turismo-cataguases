@@ -105,7 +105,6 @@ main > section.infos {
 }
 
 section.infos > img {
-    
     height: 100%;
     width: 100%;
     max-width: 600px;
@@ -114,16 +113,16 @@ section.infos > img {
 
 
 main > section.infos > p {
-    max-width: 1000px;
-    margin-bottom: 50px;
-    margin-left: 20px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 main > section.infos > ul {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
-    height: 100%;
+    overflow-wrap: break-word;
     width: 100%;
 }
 
