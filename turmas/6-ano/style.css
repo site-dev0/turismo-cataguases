@@ -73,8 +73,8 @@ header > section.container-flex {
 header > section.container-flex > img {
     height: 100%;
     width: 100%;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 520px;
+    max-height: 600px;
     margin-bottom: 20px;
 }
 
@@ -136,31 +136,7 @@ main > section.infos > ul > li > p {
     max-width: 300px;
 }
 
-main > section.infos > h4 {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 0;
-}
 
-main > section.infos > p {
-    margin: auto;
-    text-align: center;
-    overflow: hidden;
-    padding-top: 10px;
-}
-
-main > section.infos > p > a {
-    background-color: #3766ff;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 11px;
-    color: white;
-}
-
-main > section.infos > p > a:hover {
-    transition: .5s;
-    background-color: #0099ff;
-}
 
 main > section.infos > h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

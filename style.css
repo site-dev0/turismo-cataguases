@@ -143,6 +143,8 @@ main > section#container-flex-galeria1 {
 main > section#container-flex-galeria1 > img {
     border: 3px solid chocolate;
     box-shadow: 2px 2px 5px black;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 main > section#container-flex-galeria1 > section#container-flex-galeria2 {
