@@ -121,6 +121,7 @@ main > section.container-flex1 > section.container-flex2 {
     flex-wrap: wrap;
     gap: 20px;
     max-width: 500px;
+    flex-direction: column-reverse;
 }
 
 main > section.container-flex1 > section.container-flex2 > section.container-flex3 {
