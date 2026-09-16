@@ -142,15 +142,6 @@ main > section.infos > h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-section.interativo {
-    margin: 15px;
-}
-
-section.interativo > h2 {
-    margin: 15px;
-    text-align: center;
-}
-
 footer {
     color: azure;
     background-color: #88d9f6;
